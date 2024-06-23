@@ -3,11 +3,11 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    text-align: center; /* Center text by default */
 }
 
 header, nav, section, footer {
     padding: 20px;
-    text-align: center;
 }
 
 header {
@@ -21,8 +21,9 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 10px;
+    position: relative; /* Needed for dropdown positioning */
 }
 
 nav ul li a {
@@ -30,24 +31,54 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li .dropbtn {
+    cursor: pointer;
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left; /* Left align dropdown content */
+}
+
+nav ul li .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
 section {
     margin: 20px 0;
 }
 
 .project {
-    margin: 20px 0;
-    text-align: left;
+    margin: 20px auto;
+    text-align: center; /* Center project content */
+    max-width: 800px; /* Set a max width for the project content */
 }
 
 .project img {
     display: block;
-    margin-bottom: 10px;
-    max-width: 100%;
+    margin: 10px auto;
+    max-width: 100%; /* Ensure the image doesn't overflow the container */
 }
 
 .project video {
     display: block;
-    margin: 10px 0;
+    margin: 10px auto;
     width: 100%;
     max-width: 640px;
     height: auto;
