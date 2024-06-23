@@ -50,6 +50,7 @@ section {
     margin: 10px 0;
     width: 100%;
     max-width: 640px; /* Set a maximum width for the video */
+    height: auto; /* Maintain aspect ratio */
 }
 
 footer {
