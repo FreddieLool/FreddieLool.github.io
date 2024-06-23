@@ -93,6 +93,19 @@ section {
     border-radius: 10px; /* Rounded corners for videos */
 }
 
+.project a {
+    color: #b0b0b0; /* Softer color for links */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+}
+
+.project a:hover {
+    color: #ffffff; /* Light color on hover */
+    text-decoration: underline;
+}
+
 footer {
     background: #1f1f1f;
     color: #e0e0e0;
