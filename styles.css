@@ -42,19 +42,23 @@ section {
 .project img {
     display: block;
     margin-bottom: 10px;
-    max-width: 100%; /* Ensure the image doesn't overflow the container */
+    max-width: 100%;
 }
 
 .project video {
     display: block;
     margin: 10px 0;
     width: 100%;
-    max-width: 640px; /* Set a maximum width for the video */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 640px;
+    height: auto;
 }
 
 footer {
     background: #333;
     color: #fff;
     padding: 10px 0;
+}
+
+#resume p {
+    margin-bottom: 10px;
 }
