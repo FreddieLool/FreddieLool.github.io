@@ -36,6 +36,17 @@ section {
 
 .project {
     margin: 20px 0;
+    text-align: left; /* Optional: to align text and elements to the left */
+}
+
+.project img {
+    display: block; /* Ensures the image is displayed as a block element */
+    margin-bottom: 10px; /* Adds space below the image */
+}
+
+.project video {
+    display: block; /* Ensures the video is displayed as a block element */
+    margin: 10px 0; /* Adds space above and below the video */
 }
 
 footer {
