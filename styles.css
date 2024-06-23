@@ -4,8 +4,8 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #f5f5f5; /* Light background color */
-    color: #333;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
 }
 
 header, nav, section, footer {
@@ -13,8 +13,8 @@ header, nav, section, footer {
 }
 
 header {
-    background: linear-gradient(90deg, #4CAF50, #81C784); /* Gradient background */
-    color: #fff;
+    background: #1f1f1f; /* Dark header background */
+    color: #e0e0e0;
     padding: 40px 20px;
 }
 
@@ -32,7 +32,7 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: #4CAF50; /* Navigation background */
+    background-color: #333; /* Dark navigation background */
     display: flex;
     justify-content: center;
 }
@@ -42,7 +42,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #e0e0e0;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
@@ -50,17 +50,17 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #45a049; /* Hover effect for nav items */
+    background-color: #444; /* Hover effect for nav items */
     border-radius: 5px;
 }
 
 .dropdown-content {
-    background-color: #81C784; /* Dropdown background */
+    background-color: #333; /* Dropdown background */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-content a {
-    color: #fff;
+    color: #e0e0e0;
 }
 
 section {
@@ -71,8 +71,8 @@ section {
     margin: 20px auto;
     text-align: center; /* Center project content */
     max-width: 800px; /* Set a max width for the project content */
-    background-color: #fff; /* White background for project sections */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #1f1f1f; /* Dark background for project sections */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     border-radius: 10px;
     padding: 20px;
 }
@@ -94,8 +94,8 @@ section {
 }
 
 footer {
-    background: #4CAF50;
-    color: #fff;
+    background: #1f1f1f;
+    color: #e0e0e0;
     padding: 10px 0;
 }
 
@@ -105,7 +105,7 @@ footer {
 
 #contact i {
     margin-right: 8px;
-    color: #0077b5; /* Use the same color as the LinkedIn blue */
+    color: #0077b5; /* LinkedIn blue */
 }
 
 #contact a {
@@ -118,5 +118,5 @@ footer {
 }
 
 h2 {
-    color: #4CAF50; /* Green headings */
+    color: #e0e0e0; /* Light color for headings */
 }
