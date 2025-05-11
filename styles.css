@@ -85,6 +85,13 @@ section {
     padding: 40px 20px;
 }
 
+.about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
 .project {
     background-color: #1f1f1f;
     margin: 30px auto;
@@ -184,4 +191,14 @@ footer {
         width: 100% !important;
         height: auto !important;
     }
+
+.highlight-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 1.05em;
+  line-height: 1.8;
+}
+
 }
