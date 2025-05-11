@@ -157,6 +157,45 @@ iframe {
     transform: scale(1.05);
 }
 
+.highlight-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 1.05em;
+    line-height: 1.8;
+}
+
+.monetization-section {
+    margin-top: 30px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.monetization-section a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #8fe0c7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.monetization-section a:hover {
+    text-decoration: underline;
+}
+
+.monetization-preview {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
 #contact i {
     margin-right: 8px;
     color: #0077b5;
@@ -191,14 +230,4 @@ footer {
         width: 100% !important;
         height: auto !important;
     }
-
-.highlight-list {
-  max-width: 800px;
-  margin: 0 auto;
-  padding-left: 20px;
-  text-align: left;
-  font-size: 1.05em;
-  line-height: 1.8;
-}
-
 }
