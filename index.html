@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel Kerzman - Portfolio</title>
+    <title>Daniel Kerzman - Game Designer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
         <h1>Daniel Kerzman</h1>
-        <p>Game Designer</p>
+        <p>Game Designer & Developer</p>
     </header>
+
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
             <li class="dropdown">
                 <a href="#projects" class="dropbtn">Projects</a>
                 <div class="dropdown-content">
-                    <a href="#apocalypse-barrage">Apocalypse Barrage: Undead Onslaught</a>
+                    <a href="#apocalypse-barrage">Apocalypse Barrage</a>
                     <a href="#infected-frontiers">Infected Frontiers</a>
                     <a href="#machine-mania">Machine Mania: Online</a>
                 </div>
@@ -27,17 +28,20 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+
     <section id="about">
         <h2>About Me</h2>
-        <p>Dedicated and passionate game development student with a strong foundation in C# and Unity. Eager to leverage programming skills in a Game Designer role. Demonstrated leadership and innovation in game design and production.</p>
+        <p>I am a dedicated game designer passionate about fast-paced gameplay, system design, and creating memorable player experiences. With a strong foundation in Unity, C#, and visual scripting, I specialize in prototyping ideas quickly and bringing them to life.</p>
     </section>
+
     <section id="projects">
         <h2>Projects</h2>
+
         <div class="project" id="apocalypse-barrage">
             <h3>Apocalypse Barrage: Undead Onslaught</h3>
-            <img src="Images/ApocalypseBarrage.jpg" alt="Project Image">
-            <p>We’ve created “Apocalypse Barrage”, a mobile bullet hell where you play as a survivor trying to survive against a massive zombie horde that only gets stronger.</p>
-            <a href="https://github.com/FreddieLool/UnityFinalProject.git">View on GitHub</a>
+            <img src="Images/ApocalypseBarrage.jpg" alt="Apocalypse Barrage Thumbnail">
+            <p>A mobile bullet hell where you fend off endless waves of zombies, using powerful weapons and quick reflexes to survive.</p>
+            <a href="https://github.com/FreddieLool/UnityFinalProject" target="_blank">View on GitHub</a>
             <video controls>
                 <source src="Videos/ApocalypseBarrageBTS.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -50,9 +54,9 @@
 
         <div class="project" id="infected-frontiers">
             <h3>Infected Frontiers</h3>
-            <img src="Images/InfectedFrontiers.jpg" alt="Project Image">
-            <p>We’ve created “Infected Frontiers”, a RTS game where you lead an army of undead zombies to victory, whether it by annihilation of humanity or making it their slave. We thought it’d be a fun game to create since you are the “bad guy” but who cares? It’s fun being the bad guy!</p>
-            <a href="https://github.com/FreddieLool/ZombieRTS.git">View on GitHub</a>
+            <img src="Images/InfectedFrontiers.jpg" alt="Infected Frontiers Thumbnail">
+            <p>A real-time strategy game where you control a horde of undead to overwhelm humanity. Take command and rewrite the end of the world.</p>
+            <a href="https://github.com/FreddieLool/ZombieRTS" target="_blank">View on GitHub</a>
             <video controls>
                 <source src="Videos/BTSGameVideo.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -65,29 +69,49 @@
 
         <div class="project" id="machine-mania">
             <h3>Machine Mania: Online</h3>
-            <img src="Images/MachineManiaLogo.png" alt="Machine Mania Image">
-            <p>A 2D fast paced, multiplayer, side-scrolling race set in a futuristic cyberpunk-esque world.</p>
+            <img src="Images/MachineMania.jpg" alt="Machine Mania Thumbnail">
+            <p>A 2D fast-paced, multiplayer, side-scrolling race set in a futuristic cyberpunk-esque world.</p>
+            <video controls>
+                <source src="Videos/MachineManiaPreview.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <h4>Gameplay Features</h4>
+            <ul>
+                <li>Real-time multiplayer powered by Photon PUN 2</li>
+                <li>Wall-jumping, speed boosts, and platforming hazards</li>
+                <li>Cyberpunk environments and audio design</li>
+                <li>Strategic pickups and balancing mechanics</li>
+            </ul>
+
+            <h4>Design Documents</h4>
+            <ul>
+                <li><a href="https://docs.google.com/document/d/1YNQB0R4Tt9pK9VPvrYfwz_R4jeyvlElCGytxs9DUDmI" target="_blank">Game Design Document (GDD)</a></li>
+                <li><a href="https://docs.google.com/spreadsheets/d/11NDkrOoQljZAib_2CIjTJh2prgTpKJJ0bx9l1Mc3mlg" target="_blank">Pickup & Mechanics Balance Sheet</a></li>
+            </ul>
+
+            <h4>Project Links</h4>
+            <ul>
+                <li><a href="https://github.com/W437/MachineManiaOnline" target="_blank">GitHub Repository</a></li>
+                <li><a href="https://w437.itch.io/machine-mania" target="_blank">Play on Itch.io</a></li>
+            </ul>
+
             <p style="font-size: 24px; color: red;">Work in Progress</p>
         </div>
-
-        <!-- Repeat for other projects -->
     </section>
+
     <section id="resume">
         <h2>Resume</h2>
         <p>You can view my resume by clicking the link below:</p>
-        <a href="Docs/Resume.pdf" target="_blank">View Resume</a>
+        <a href="docs/Resume.pdf" target="_blank">View Resume</a>
     </section>
+
     <section id="contact">
         <h2>Contact</h2>
-        <p>
-            <i class="fas fa-envelope"></i>
-            Email: <a href="mailto:danielkerzman1@gmail.com">danielkerzman1@gmail.com</a>
-        </p>
-        <p>
-            <i class="fab fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/daniel-kerzman-069897242/" target="_blank">LinkedIn Profile</a>
-        </p>
+        <p><i class="fas fa-envelope"></i> Email: <a href="mailto:danielkerzman1@gmail.com">danielkerzman1@gmail.com</a></p>
+        <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/daniel-kerzman-069897242/" target="_blank">LinkedIn Profile</a></p>
     </section>
+
     <footer>
         <p>&copy; 2024 Daniel Kerzman</p>
     </footer>
